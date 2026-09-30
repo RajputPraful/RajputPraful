@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 128" width="800" height="128" role="img" aria-label="Footer">
+<title>Footer</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".55" stop-color="#a371f7"/><stop offset="1" stop-color="#39c5cf"/></linearGradient>
+<marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#8b949e"/></marker></defs>
+<style>
+.m{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}.s{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+@keyframes fu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.fu{animation:fu .7s ease backwards}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes dash{to{stroke-dashoffset:-20}}
+.dash{stroke-dasharray:5 5;animation:dash 1.2s linear infinite}
+@keyframes act{0%,14%{opacity:1}18%,100%{opacity:0}}
+@keyframes hl{0%,12%{fill:#58a6ff}17%,100%{fill:#8b949e}}.w0{fill:#8b949e;animation:hl 9s infinite;animation-delay:0.0s}.w1{fill:#8b949e;animation:hl 9s infinite;animation-delay:1.5s}.w2{fill:#8b949e;animation:hl 9s infinite;animation-delay:3.0s}.w3{fill:#8b949e;animation:hl 9s infinite;animation-delay:4.5s}.w4{fill:#8b949e;animation:hl 9s infinite;animation-delay:6.0s}.w5{fill:#8b949e;animation:hl 9s infinite;animation-delay:7.5s}</style>
+<rect x="0" y="10" width="800" height="1" fill="#30363d"/><rect x="0" y="9" width="160" height="3" rx="1.5" fill="url(#g)"><animate attributeName="x" values="0;640;0" dur="7s" repeatCount="indefinite"/></rect><g class="fu" style="animation-delay:0s"><text x="400" y="56" class="s" font-size="18" font-weight="600" fill="#e6edf3" text-anchor="middle" >Designing systems. Building products. Learning by shipping.</text><text x="400" y="88" class="m" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2"><tspan class="w0">BUILD</tspan><tspan fill="#484f58"> → </tspan><tspan class="w1">BREAK</tspan><tspan fill="#484f58"> → </tspan><tspan class="w2">DEBUG</tspan><tspan fill="#484f58"> → </tspan><tspan class="w3">LEARN</tspan><tspan fill="#484f58"> → </tspan><tspan class="w4">SHIP</tspan><tspan fill="#484f58"> → </tspan><tspan class="w5">ITERATE</tspan></text><text x="400" y="116" class="m" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle" letter-spacing="1" >Praful Singh · @RajputPraful</text></g>
+</svg>
