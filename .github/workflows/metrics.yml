@@ -2,47 +2,56 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"      # daily at 00:00 UTC
+  workflow_dispatch:          # allows manual run from the Actions tab
+
+permissions:
+  contents: write
 
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
-      - uses: lowlighter/metrics@latest
+      # 1) Main dashboard -> github-metrics.svg
+      - name: Generate main metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
           user: RajputPraful
-
           template: classic
-
-          base: header, activity, community, repositories, metadata
-
-          config_timezone: Asia/Kolkata
-          config_display: large
-          config_padding: 0, 8%
-
-          optimize: svg
-
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          plugin_languages: yes
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          plugin_stars: yes
-          plugin_repositories: yes
-
           filename: github-metrics.svg
           output_action: commit
+          committer_branch: main
+          committer_message: "chore: update github-metrics.svg [skip ci]"
+          config_timezone: Asia/Kolkata
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          plugin_activity: yes
+          plugin_activity_limit: 6
+          plugin_activity_days: 14
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_from: 200
+          plugin_habits_charts: yes
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
+      # 2) Isometric contribution calendar -> github-metrics-calendar.svg
+      - name: Generate contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: RajputPraful
+          template: classic
+          filename: github-metrics-calendar.svg
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update github-metrics-calendar.svg [skip ci]"
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
