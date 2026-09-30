@@ -1,62 +1,48 @@
-<!-- ========================================================= -->
-<!--                     HERO SECTION                          -->
-<!-- ========================================================= -->
+<!--
+  ============================================================
+  PRAFUL SINGH — GITHUB PROFILE
+  ============================================================
+-->
 
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:111827,100:020617&height=220&section=header&text=Praful%20Singh&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Engineering%20%7C%20Developer%20%7C%20Builder&descAlignY=60&descSize=18"
-    width="100%"
-  />
-</p>
+<div align="center">
 
-<p align="center">
+# Praful Singh
 
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=800&lines=Building+software+that+solves+real+problems;Java+%7C+Python+%7C+JavaScript+%7C+C%2B%2B;DSA+%7C+DBMS+%7C+Backend+%7C+Full-Stack;Turning+ideas+into+working+products+%F0%9F%9A%80"
-    alt="Typing Animation"
-  />
+### Computer Science Engineering · Software Development · Product Building
 
-</p>
-
-<p align="center">
-
+<p>
   <a href="https://github.com/RajputPraful">
-    <img src="https://img.shields.io/badge/GitHub-RajputPraful-ffffff?style=flat-square&logo=github&logoColor=black"/>
+    <img src="https://img.shields.io/badge/GitHub-RajputPraful-181717?style=flat-square&logo=github" />
   </a>
-
   <a href="https://linkedin.com/in/praful-singh-386a82317">
-    <img src="https://img.shields.io/badge/LinkedIn-Praful%20Singh-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Praful%20Singh-0A66C2?style=flat-square&logo=linkedin" />
   </a>
-
   <a href="mailto:prafulsingh9797@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-38BDF8?style=flat-square&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-prafulsingh9797-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
-
+  <img src="https://komarev.com/ghpvc/?username=RajputPraful&style=flat-square&label=Profile%20Views" />
 </p>
 
-<p align="center">
-
-  <img src="https://komarev.com/ghpvc/?username=RajputPraful&style=flat-square&color=38BDF8&label=PROFILE+VIEWS"/>
-
-</p>
+</div>
 
 ---
 
-# `whoami`
+## About
+
+I'm a Computer Science Engineering student focused on software development,
+problem solving, databases, and building practical products.
+
+My current work spans from **DSA and core computer science fundamentals**
+to **backend systems, databases, and full-stack applications**.
+
+I learn primarily through projects — taking an idea, understanding the
+underlying engineering, building it, and iterating on it.
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  $ whoami                                                    │
-│                                                              │
-│  Praful Singh                                                │
-│  Computer Science Engineering Student                        │
-│                                                              │
-│  ├── Building        → Real-world software projects          │
-│  ├── Learning        → DSA • DBMS • Backend • Full-Stack     │
-│  ├── Languages       → Java • Python • C • C++ • JavaScript  │
-│  ├── Databases       → MySQL • PostgreSQL                    │
-│  ├── Tools           → Git • GitHub • Linux • VS Code        │
-│  └── Mindset         → Learn → Build → Debug → Improve       │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
+Current focus
+──────────────────────────────────────────────
+DSA              Data Structures & Algorithms
+Backend          REST APIs · Flask · Server-side development
+Databases        MySQL · PostgreSQL · SQL
+Languages        Java · Python · C · C++ · JavaScript
+Engineering      Git · GitHub · APIs · Debugging
